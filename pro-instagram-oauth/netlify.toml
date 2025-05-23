@@ -1,23 +1,23 @@
 [build]
-  functions = "netlify/functions"
-  publish = "."
+functions = "netlify/functions"
+publish = "."
 
 [[redirects]]
-  from = "/webhook"
-  to = "/.netlify/functions/webhook"
-  status = 200
+from = "/webhook"
+to = "/.netlify/functions/webhook"
+status = 200
 
 [[redirects]]
-  from = "/auth/callback"
-  to = "/.netlify/functions/auth-callback"
-  status = 200
+from = "/auth/callback"
+to = "./.netlify/functions/auth-callback"
+status = 200
 
 [[redirects]]
-  from = "/cancel"
-  to = "/.netlify/functions/cancel"
-  status = 200
+from = "/cancel"
+to = "./.netlify/functions/cancel"
+status = 200
 
 [[redirects]]
-  from = "/delete"
-  to = "/.netlify/functions/delete"
-  status = 200
+from = "/delete"
+to = "./.netlify/functions/delete"
+status = 200
